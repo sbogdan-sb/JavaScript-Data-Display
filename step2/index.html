@@ -29,41 +29,28 @@
       <div class="row margin-top-50">
         <div class="col-md-2">
           <aside class="filters">
-            <div class="panel panel-default">
-              <!-- <div class="panel-heading">Filter Search</div> -->
+            <div class="panel panel-default" >
 
-<!--                       *************************************** -->
-
-                    <div class="dropdown">
-                        <a class="dropdown-toggle" style="text-decoration:none" href="#" data-toggle="dropdown">Select Filter
-                        <span class="caret"></span></a>
-                        <ul class="dropdown-menu" id="filterSelect">
-                          <li><a href="#" class="filterOption">datetime</a></li>
-                          <li><a href="#" class="filterOption">city</a></li>
-                          <li><a href="#" class="filterOption">state</a></li>
-                          <li><a href="#" class="filterOption">country</a></li>
-                          <li><a href="#" class="filterOption">shape</a></li>
-                        </ul>
-                      </div>
-
-
-
-<!-- ******************************************************************************** -->
-
-
-
-
-
-
-
+              <!-- Added drop down menu for search filter selection -->
+              <div class="dropdown">
+                  <a class="dropdown-toggle" style="text-decoration:none" href="#" data-toggle="dropdown">Select Filter
+                  <span class="caret"></span></a>
+                  <ul class="dropdown-menu" id="filterSelect">
+                    <li><a href="#" class="filterOption" value="datetime">Date</a></li>
+                    <li><a href="#" class="filterOption" value="city">City</a></li>
+                    <li><a href="#" class="filterOption" value="state">State</a></li>
+                    <li><a href="#" class="filterOption" value="country">Country</a></li>
+                    <li><a href="#" class="filterOption" value="shape">Shape</a></li>
+                  </ul>
+              </div>
 
               <div class="panel-body">
-                <form onsubmit="return false;">
+                <form>
                   <div class="form-group">
                     <ul class="list-group" id="filters">
                       <li class="filter list-group-item">
                         <label for="date">Enter a Date</label>
-                        <input class="form-control" id="datetime" type="text" >
+                        <input class="form-control" id="filter" type="text" >
                       </li>
                     </ul>
                   </div>
