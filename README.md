@@ -24,6 +24,3 @@ Assignment description:
   3. `state`
   4. `country`
   5. `shape`
-
-
-Interactive web page can be viewed here: https://javascript-data-display.herokuapp.com/
